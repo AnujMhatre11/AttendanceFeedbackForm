@@ -4,16 +4,24 @@
     "slug": "FeedbackForm",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
+    
+    "expo": {
+        "extra": {
+          "supabaseUrl": "https://wdfbndhnsksisjxseqbb.supabase.co",
+          "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndkZmJuZGhuc2tzaXNqeHNlcWJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYxMzkyNDEsImV4cCI6MjA1MTcxNTI0MX0.owh9IYMx8Q2kM5WmHPyGCdUIVt5mdMCXCHZZK6vFY2U"
+        }
+      },
+    
+    
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+    
         "backgroundColor": "#ffffff"
       }
     },
@@ -27,7 +35,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+    
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
